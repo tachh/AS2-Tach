@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AS2</title>
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/fancybox.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/icons/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/splide.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-white" aria-label="Third navbar example">
+        <div class="container-fluid">
+            <a class="navbar-brand ps-5 ms-5" href="#"><img src="img/klassy-logo.png" alt="" class="img-fluid"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03"
+                aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="text-end pe-5 me-5">
+                <div class="collapse navbar-collapse" id="navbarsExample03">
+                    <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-danger fw-semibold" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black fw-semibold" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled text-black fw-semibold" aria-disabled="true">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled text-black fw-semibold" aria-disabled="true">Chefs</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-black fw-semibold" href="#"
+                                data-bs-toggle="dropdown" aria-expanded="false">Features</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black fw-semibold" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="row">
+        <div class="col-4 bg-danger py-5">
+            <div class="text-white h1">
+                KlassyCafe
+            </div>
+        </div>
+        <div class="col-8">
+
+        </div>
+    </div>
+
+
+
+    <div class="bg-white py-5">
+        <div class="container-xl pb-5">
+            <div class="row">
+                <div class="col-6">
+                    <div class="text-danger fw-semibold pt-5 pb-4">
+                        _______ ABOUT US
+                    </div>
+                    <div class="text-black fw-bold h2 pb-4">
+                        We Leave A Delicious <br> Memory For You
+                    </div>
+                    <div class="pb-4">
+                        Lorem ipsum dolor, <a href="#" class="text-decoration-none">sit amet consectetur adipisicing
+                        elit.</a> Esse dolores sit molestias ab culpa
+                        eius animi architecto nemo? Esse qui eligendi nobis atque suscipit quis alias tempore, illo
+                        ipsum vel mollitia sapiente, aliquam deleniti voluptatum nam unde dolorem quaerat nesciunt
+                        placeat? Facilis exercitationem eius mollitia.
+                    </div>
+                    <div class="pb-4">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum natus sunt cum quia labore
+                        sequi cumque assumenda laboriosam magnam.
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="img/chefs-03.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-4">
+                            <img src="img/chefs-03.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-4">
+                            <img src="img/chefs-03.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 pt-5">
+                    <img src="img/about-video-bg.jpg" alt="" class="img-fluid ps-5">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-xl py-5">
+        <div class="text-danger fw-semibold pt-5 pb-4">
+            _______ OUR MENU
+        </div>
+        <div class="text-black fw-bold h2 pb-4">
+            Our selection of cakes <br> with quality taste
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var splide = new Splide('.splide', {
+                type: "loop",
+                autoplay: 1,
+                arrows: 0,
+                interval: 3e3,
+                pauseOnHover: 0,
+                perMove: 1,
+                perPage: 3,
+                gap: "1.5rem",
+            });
+            splide.mount();
+
+
+            var splide = new Splide('#second-slider', {
+                type: "loop",
+                autoplay: 1,
+                arrows: 0,
+                interval: 3e3,
+                pauseOnHover: 0,
+                perMove: 1,
+                perPage: 1,
+                gap: "1.5rem",
+            });
+            splide.mount();
+        });
+    </script>
+
+    </script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/splide.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/fancybox.umd.js"></script>
+    <script>
+        Fancybox.bind("[data-fancybox]", {
+            'animated': true,
+        });
+    </script>
+    <script>
+        AOS.init({
+            once: true,
+        });
+    </script>
+</body>
+
+</html>
