@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AS2</title>
+    <link rel="icon" type="image/png" href="./img/favicon.png">
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/fancybox.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -18,26 +19,26 @@
 
     <nav class="navbar navbar-expand-sm navbar-dark bg-white" aria-label="Third navbar example">
         <div class="container-fluid">
-            <a class="navbar-brand ps-5 ms-5" href="#"><img src="img/klassy-logo.png" alt="" class="img-fluid"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03"
+            <a class="navbar-brand ps-2 ps-xl-5 ms-xl-5" href="#"><img src="img/klassy-logo.png" alt="" class="img-fluid"></a>
+            <button class="navbar-toggler bg-hihi ms-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03"
                 aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span><i class="navbar-toggler-icon"></i></span>
             </button>
 
             <div class="text-end pe-5 me-5">
                 <div class="collapse navbar-collapse" id="navbarsExample03">
                     <ul class="navbar-nav me-auto mb-2 mb-sm-0">
                         <li class="nav-item">
-                            <a class="nav-link active text-danger fw-semibold" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active text-danger fw-semibold text-start" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-black fw-semibold" href="#">About</a>
+                            <a class="nav-link text-black fw-semibold text-start" href="#">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled text-black fw-semibold" aria-disabled="true">Menu</a>
+                            <a class="nav-link disabled text-black fw-semibold text-start" aria-disabled="true">Menu</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled text-black fw-semibold" aria-disabled="true">Chefs</a>
+                            <a class="nav-link disabled text-black fw-semibold text-start" aria-disabled="true">Chefs</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-black fw-semibold" href="#"
@@ -59,25 +60,54 @@
 
 
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-4 bg-image py-5">
-                <div class="text-white h1 pt-5">
+    <div class="container-fluid m-0">
+        <div class="row g-0">
+            <div class="col-12 col-xl-4 bg-image py-5">
+                <div class="py-xl-5"></div>
+                <div class="py-xl-5"></div>
+                <div class="text-white display-4 fw-semibold pt-xl-5 ps-3">
                     KlassyCafe    
                 </div>
+                <div class="text-white fw-bold ps-3">
+                    FOR BEST EXPERIENCE
+                </div>
+                <button class="btn bg-white text-hihi rounded-0 ms-3 fw-bold mt-4">Make A Reservation</button>
             </div>
-            <div class="col-8">
-                <img src="img/slide-01.jpg" alt="" class="img-fluid">
+            <div class="col-xl-8 d-none d-xl-block">
+                <div class="splide" role="" aria-label="Splide Basic HTML Example">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <a href="img/slide-01.jpg" class="text-decoration-none img-fluid" 
+                                    data-fancybox="gallery" data-caption="Kafe Design">
+                                    <img src="img/slide-01.jpg" alt="">
+                                </a>
+                            </li>
+                            <li class="splide__slide">
+                                <a href="img/slide-02.jpg" class="text-decoration-none img-fluid" 
+                                    data-fancybox="gallery" data-caption="Kafe Design">
+                                    <img src="img/slide-02.jpg" alt="">
+                                </a>
+                            </li>
+                            <li class="splide__slide">
+                                <a href="img/slide-03.jpg" class="text-decoration-none img-fluid" 
+                                    data-fancybox="gallery" data-caption="Kafe Design">
+                                    <img src="img/slide-03.jpg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
 
 
-    <div class="bg-white py-5">  
+    <div class="bg-white py-xl-5">  
         <div class="container-xl pb-5">
-            <div class="row">
-                <div class="col-6">
+            <div class="row ms-xl-5 ps-xl-3">
+                <div class="col-11 ms-3 ms-xl-1 col-xl-5">
                     <div class="text-danger fw-semibold pt-5 pb-4">
                         _______ ABOUT US
                     </div>
@@ -96,35 +126,440 @@
                         sequi cumque assumenda laboriosam magnam.
                     </div>
                     <div class="row">
-                        <div class="col-4">
-                            <img src="img/chefs-03.jpg" alt="" class="img-fluid">
+                        <div class="col-4 col-xl-4">
+                            <a href="img/about-thumb-01.jpg" class="text-decoration-none img-fluid" 
+                                data-fancybox="gallery" data-caption="Best Food">
+                                <img src="img/about-thumb-01.jpg" alt="" class="img-fluid">
+                            </a>
                         </div>
-                        <div class="col-4">
-                            <img src="img/chefs-03.jpg" alt="" class="img-fluid">
+                        <div class="col-4 col-xl-4">
+                            <a href="img/about-thumb-02.jpg" class="text-decoration-none img-fluid" 
+                                data-fancybox="gallery" data-caption="Second Food">
+                                <img src="img/about-thumb-02.jpg" alt="" class="img-fluid">
+                            </a>
                         </div>
-                        <div class="col-4">
-                            <img src="img/chefs-03.jpg" alt="" class="img-fluid">
+                        <div class="col-4 col-xl-4">
+                            <a href="img/about-thumb-03.jpg" class="text-decoration-none img-fluid" 
+                                data-fancybox="gallery" data-caption="Third Food">
+                                <img src="img/about-thumb-03.jpg" alt="" class="img-fluid">
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-6 pt-5">
-                    <img src="img/about-video-bg.jpg" alt="" class="img-fluid ps-5">
+                <div class="col-xl-6 mt-3 pt-5 d-none d-xl-block">
+                    <a href="img/about-video-bg.jpg" class="text-decoration-none img-fluid" 
+                        data-fancybox="gallery" data-caption="Chef's Works">
+                        <img src="img/about-video-bg.jpg" alt="" class="img-fluid ps-xl-5">
+                    </a>
                 </div>
             </div>
         </div>
     </div>
 
 
-    <div class="container-xl py-5">
+    <div class="container-xl py-xl-5">
         <div class="text-danger fw-semibold pt-5 pb-4">
             _______ OUR MENU
         </div>
         <div class="text-black fw-bold h2 pb-4">
             Our selection of cakes <br> with quality taste
         </div>
+        <div class="row pb-5" >
+            <div class="col-6 col-xl-3 pb-3">
+                <div class="position-relative" data-aos="fade-up" data-aos-duration="1000">
+                    <a href="img/menu-item-01.jpg" class="text-decoration-none img-fluid" 
+                        data-fancybox="gallery" data-caption="Menu 1">
+                        <img src="img/menu-item-01.jpg" alt="" class="h-100 w-100">
+                    </a>
+                    <div class="position-absolute top-0 start-0 py-2 px-1 bg-hihi">
+                        <div class="text-white fw-bold">
+                            $8.50
+                        </div>
+                    </div>
+                    <div class="position-absolute bottom-0 start-0 bg-hihi  d-none d-xl-block">
+                        <div class="text-white h4 ps-3 pt-3">
+                            Klassy Cup Cake
+                        </div>
+                        <div class="small text-white ps-3 pb-3">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, eligendi!
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-xl-3 pb-3">
+                <div class="position-relative" data-aos="fade-down" data-aos-duration="1000">
+                    <a href="img/menu-item-02.jpg" class="text-decoration-none img-fluid" 
+                        data-fancybox="gallery" data-caption="Menu 2">
+                        <img src="img/menu-item-02.jpg" alt="" class="h-100 w-100">
+                    </a>
+                    <div class="position-absolute top-0 start-0 py-2 px-1 bg-hihi">
+                        <div class="text-white fw-bold">
+                            $8.50
+                        </div>
+                    </div>
+                    <div class="position-absolute bottom-0 start-0 bg-hihi  d-none d-xl-block">
+                        <div class="text-white h4 ps-3 pt-3">
+                            Klassy Cup
+                        </div>
+                        <div class="small text-white ps-3 pb-3">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, eligendi!
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-xl-3 pb-3">
+                <div class="position-relative" data-aos="fade-up" data-aos-duration="1000">
+                    <a href="img/menu-item-03.jpg" class="text-decoration-none img-fluid" 
+                        data-fancybox="gallery" data-caption="Menu 3">
+                        <img src="img/menu-item-03.jpg" alt="" class="h-100 w-100">
+                    </a>
+                    <div class="position-absolute top-0 start-0 py-2 px-1 bg-hihi">
+                        <div class="text-white fw-bold">
+                            $8.50
+                        </div>
+                    </div>
+                    <div class="position-absolute bottom-0 start-0 bg-hihi d-none d-xl-block">
+                        <div class="text-white h4 ps-3 pt-3">
+                            Cup Cake
+                        </div>
+                        <div class="small text-white ps-3 pb-3">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, eligendi!
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-xl-3">
+                <div class="position-relative" data-aos="fade-down" data-aos-duration="1000">
+                    <a href="img/menu-item-04.jpg" class="text-decoration-none img-fluid" 
+                        data-fancybox="gallery" data-caption="Menu 4">
+                        <img src="img/menu-item-04.jpg" alt="" class="h-100 w-100">
+                    </a>
+                    <div class="position-absolute top-0 start-0 py-2 px-1 bg-hihi">
+                        <div class="text-white fw-bold">
+                            $8.50
+                        </div>
+                    </div>
+                    <div class="position-absolute bottom-0 start-0 bg-hihi d-none d-xl-block">
+                        <div class="text-white h4 ps-3 pt-3">
+                            Klassic Cake
+                        </div>
+                        <div class="small text-white ps-3 pb-3">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, eligendi!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 
+
+    <div class="container-xl py-5">
+        <div class="small text-danger text-center pt-5 pb-2">
+            OUR CHEFS
+        </div>
+        <div class="h2 text-black text-center fw-bold">
+            We offer the best <br> ingredients for you
+        </div>
+        <div class="row py-5">
+            <div class="col-12 col-xl-4 pb-3">
+                <div class="text-center border py-4" data-aos="fade-left" data-aos-duration="1000">
+                    <a href="img/chefs-01.jpg" class="text-decoration-none img-fluid" 
+                        data-fancybox="gallery" data-caption="Our First Chef">
+                        <img src="img/chefs-01.jpg" alt="" class="w-75">
+                    </a>
+                    <div class="text-black fw-semibold h5 pt-3">
+                        Randy Walker
+                    </div>
+                    <div class="small text-secondary">
+                        Postry Chef
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-xl-4 pb-3">
+                <div class="text-center border py-4" data-aos="fade-up" data-aos-duration="1000">
+                    <a href="img/chefs-02.jpg" class="text-decoration-none img-fluid" 
+                        data-fancybox="gallery" data-caption="Our Second Chef">
+                        <img src="img/chefs-02.jpg" alt="" class="w-75">
+                    </a>
+                    <div class="text-black fw-semibold h5 pt-3">
+                        David Martin
+                    </div>
+                    <div class="small text-secondary">
+                        Postry Chef
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-xl-4">
+                <div class="text-center border py-4" data-aos="fade-right" data-aos-duration="1000">
+                    <a href="img/chefs-03.jpg" class="text-decoration-none img-fluid" 
+                        data-fancybox="gallery" data-caption="Our Third Chef">
+                        <img src="img/chefs-03.jpg" alt="" class="w-75">
+                    </a>
+                    <div class="text-black fw-semibold h5 pt-3">
+                        Peter Perkson
+                    </div>
+                    <div class="small text-secondary">
+                        Postry Chef
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="bg-image2">
+        <div class="bg-shadow py-5">
+            <div class="container-xl">
+                <div class="row py-xl-5">
+                    <div class="col-xl-6 ms-1 ms-xl-5 ps-xl-5">
+                        <div class="text-white small pt-5 pb-2">
+                            ____ CONTACT US
+                        </div>
+                        <div class="text-capitalize text-white fw-bold h2 pb-4">
+                            here you can make a reservati <br> or just walkin to our cafe
+                        </div>
+                        <div class="small pb-3 text-white d-none d-xl-block">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolor voluptate,<br> animi natus accusantium cumque dolorem quae ex excepturi esse. Lorem ips <br> um dolor sit amet. Lorem.
+                        </div>
+                        <div class="row py-5 me-1">
+                            <div class="col-6 col-xl-5">
+                                <div class="bg-white h-100 pb-3 rounded-2 position-relative">
+                                    <div class="position-absolute top-0 start-50 translate-middle text-danger h1 text-center pb-2">
+                                        <i class="bi-phone bg-danger text-white rounded-pill small px-3 p-2"></i>
+                                    </div>
+                                    <div class="text-black pt-5 text-center fw-bold h5">
+                                        Phone Numbers
+                                    </div>
+                                    <div class="text-black small text-center">
+                                        000-888-999
+                                    </div>
+                                    <div class="text-black small text-center">
+                                        000-888-999
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-xl-5">
+                                <div class="bg-white h-100 pb-3 rounded-2 position-relative">
+                                    <div class="position-absolute top-0 start-50 translate-middle text-danger h1 text-center pb-2">
+                                        <i class="bi-envelope bg-danger text-white rounded-pill small px-3 p-2"></i>
+                                    </div>
+                                    <div class="text-black pt-5 text-center fw-bold h5">
+                                        Phone Numbers
+                                    </div>
+                                    <div class="text-black small text-center">
+                                        000-888-999
+                                    </div>
+                                    <div class="text-black small text-center">
+                                        000-888-999
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-11 col-xl-4 bg-white rounded-2 ms-3 ms-xl-5 pb-3">
+                        <div class="text-black text-center fw-bold h4 pt-4">
+                            Table Reservation
+                        </div>
+                        <div class="mt-2 mt-xl-4 text-center">
+                            <input type="text" placeholder="Your Name*" class="border-2 ms-xl-2">
+                            <span><input type="text" placeholder="Your Email Address" class="border-2 mt-2 ms-xl-3"></span>
+                        </div>
+                        <div class="mt-2 mt-xl-4 text-center">
+                            <input type="number" placeholder="Phone Number*" class="border-2 ms-xl-2">
+                            <span><input type="number" placeholder="Number Of Guests" class="border-2 mt-2 ms-xl-3"></span>
+                        </div>
+                        <div class="mt-2 mt-xl-4 text-center">
+                            <input type="number" placeholder="dd/mm/yyyy" class="border-2 ms-xl-2">
+                            <span><input type="number" placeholder="Time" class="border-2 mt-2 ms-xl-3"></span>
+                        </div>
+                        <div class="mt-2 mt-xl-4 ms-2 text-center">
+                            <textarea rows="8" name="Message" id="" placeholder="Message" class="border-2 w-100"></textarea>
+                            
+                        </div>
+                        <div class="text-center">
+                            <button class="btn rounded-1 text-white bg-danger ms-1 w-100 fw-semibold hover-none">Make A Reservation</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="bg-white py-5">
+        <div class="container-xl">
+            <div class="text-center small text-hihi fw-semibold pt-4 pb-4">
+                KLASSY WEEK
+            </div>
+            <div class="text-black h2 fw-bolder text-capitalize text-center">
+                this week's special <br> meal offers
+            </div>
+            <div class="text-center pt-5">
+                <img src="img/tab-icon-01.png" alt="">
+                <img src="img/tab-icon-02.png" alt="" class="mx-3">
+                <img src="img/tab-icon-03.png" alt="">
+            </div>
+            <div class="text-center text-hihi px-3 fw-semibold small pb-3">
+                Breakfast
+                <span class="text-black px-5 fw-semibold">Lunch</span>
+                <span class="text-black ms-3 fw-semibold">Dinner</span>
+            </div>
+            <div class="row ps-5 py-5">
+                <div class="col-xl-6">
+                    <div class="row">
+                        <div class="col-3 pt-4 pt-xl-1">
+                            <a href="img/tab-item-01.png" class="text-decoration-none img-fluid" 
+                                data-fancybox="gallery" data-caption="Our Best Foods">
+                                <img src="img/tab-item-01.png" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-4 col-xl-6">
+                            <div class="text-black text-start fw-bold h5 pt-xl-2 pt-4">
+                                Fresh
+                            </div>
+                            <div class="text-secondary small d-none d-xl-block">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab necessitatibus veritatis.
+                            </div>
+                        </div>
+                        <div class="col-5 col-xl-3">
+                            <div class="bg-hihi text-center text-white h5 fw-bold py-4 my-4 me-5 rounded-3">
+                                $10.50
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3 pt-4 pt-xl-1">
+                            <a href="img/tab-item-02.png" class="text-decoration-none img-fluid" 
+                                data-fancybox="gallery" data-caption="Our Best Foods">
+                                <img src="img/tab-item-02.png" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-4 col-xl-6">
+                            <div class="text-black text-start fw-bold h5 pt-xl-2 pt-5">
+                                Orange
+                            </div>
+                            <div class="text-secondary small d-none d-xl-block">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab necessitatibus veritatis.
+                            </div>
+                        </div>
+                        <div class="col-5 col-xl-3">
+                            <div class="bg-hihi text-center text-white h5 fw-bold py-4 my-4 me-5 rounded-3">
+                                $5.90
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3 pt-4 pt-xl-1">
+                            <a href="img/tab-item-03.png" class="text-decoration-none img-fluid" 
+                                data-fancybox="gallery" data-caption="Our Best Foods">
+                                <img src="img/tab-item-03.png" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-4 col-xl-6">
+                            <div class="text-black text-start fw-bold h5 pt-xl-2 pt-5">
+                                Fruit
+                            </div>
+                            <div class="text-secondary small d-none d-xl-block">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab necessitatibus veritatis.
+                            </div>
+                        </div>
+                        <div class="col-5 col-xl-3">
+                            <div class="bg-hihi text-center text-white h5 fw-bold py-4 my-4 me-5 rounded-3">
+                                $12.70
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="row">
+                        <div class="col-3 pt-4 pt-xl-1">
+                            <a href="img/tab-item-04.png" class="text-decoration-none img-fluid" 
+                                data-fancybox="gallery" data-caption="Our Best Foods">
+                                <img src="img/tab-item-04.png" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-4 col-xl-6">
+                            <div class="text-black text-start fw-bold h5 pt-xl-2 pt-5">
+                                Eggs
+                            </div>
+                            <div class="text-secondary small d-none d-xl-block">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab necessitatibus veritatis.
+                            </div>
+                        </div>
+                        <div class="col-5 col-xl-3">
+                            <div class="bg-hihi text-center text-white h5 fw-bold py-4 my-4 me-5 rounded-3">
+                                $7.40
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3 pt-4 pt-xl-1">
+                            <a href="img/tab-item-05.png" class="text-decoration-none img-fluid" 
+                                data-fancybox="gallery" data-caption="Our Best Foods">
+                                <img src="img/tab-item-05.png" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-4 col-xl-6">
+                            <div class="text-black text-start fw-bold h5 pt-xl-2 pt-5">
+                                Dolima
+                            </div>
+                            <div class="text-secondary small d-none d-xl-block">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab necessitatibus veritatis.
+                            </div>
+                        </div>
+                        <div class="col-5 col-xl-3">
+                            <div class="bg-hihi text-center text-white h5 fw-bold py-4 my-4 me-5 rounded-3">
+                                $9.80
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3 pt-4 pt-xl-1">
+                            <a href="img/tab-item-06.png" class="text-decoration-none img-fluid" 
+                                data-fancybox="gallery" data-caption="Our Best Foods">
+                                <img src="img/tab-item-06.png" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-4 col-xl-6">
+                            <div class="text-black text-start fw-bold h5 pt-xl-2 pt-5">
+                                Omelette
+                            </div>
+                            <div class="text-secondary small d-none d-xl-block">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab necessitatibus veritatis.
+                            </div>
+                        </div>
+                        <div class="col-5 col-xl-3">
+                            <div class="bg-hihi text-center text-white h5 fw-bold py-4 my-4 me-5 rounded-3">
+                                $11.70
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-danger">
+        <div class="container-xl">
+            <div class="row pt-xl-4 text-xl-center text-start">
+                <div class="col-12 col-xl-4 ps-5 text-center pt-4 pb-3">
+                    <i class="bi-facebook bg-white text-hihi px-2 p-1 rounded-circle me-3"></i>
+                    <i class="bi-twitter bg-white text-hihi px-2 p-1 rounded-circle me-3"></i>
+                    <i class="bi-instagram bg-white text-hihi px-2 p-1 rounded-circle me-3"></i>
+                    <i class="bi-tiktok bg-white text-hihi px-2 p-1 rounded-circle me-5"></i>
+                </div>
+                <div class="col-xl-4 col-6">
+                    <div class="text-start"><img src="img/white-logo.png" alt="" class="img-fluid"></div>
+                </div>
+                <div class="col-6 text-center col-xl-3 ps-5">
+                    <div class="text-white small fw-semibold text-start  pe-5 pt-3 pt-xl-4 pb-5">
+                        Copyright by Tachmyrat
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -139,12 +574,18 @@
             var splide = new Splide('.splide', {
                 type: "loop",
                 autoplay: 1,
-                arrows: 0,
-                interval: 3e3,
+                arrows: true,
+                interval: 5e3,
                 pauseOnHover: 0,
                 perMove: 1,
-                perPage: 3,
+                perPage: 1,
                 gap: "1.5rem",
+                breakpoints: {
+                    767: {
+                        perPage: 1,
+                        perMove: 1,
+                    },
+                },
             });
             splide.mount();
 

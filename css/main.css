@@ -6,8 +6,8 @@
     background-position: center;
     background-size: cover;
 }
-.bg-image-between {
-    background-image: url("../img/cta-bg.jpg");
+.bg-image2 {
+    background-image: url("../img/slide-02.jpg");
     background-color: black;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -16,28 +16,49 @@
 }
 
 .bg-shadow {
-    background-color: rgba(228, 222, 222, 0.274);
+    background-color: rgba(51, 50, 50, 0.885);
 }
 
-a.hover-1 {
-    position: relative;
-    color: white!important;
+
+
+
+.splide__arrow {
+    background-color: #FB6358;
+    color: #ffffff;
+    border-radius: 50%;
+    opacity: 0.5;
+    transition: opacity 0.3;
 }
 
-a.hover-1:hover {
-    color: red!important;
+.splide__arrow--prev::before {
+    content: '';
+    background-color: transparent;
 }
-.card {
-    cursor: pointer;
-    transition: ease 0.5s;
+
+.splide__arrow--next::before {
+    content: '';
+    background-color: transparent;
 }
-.card:hover {
-    transform: translateY(-15px);
+
+.text-hihi {
+    color: #FB6358;
 }
-.card1 {
-    cursor: pointer;
-    transition: ease 0.7s;
+
+.g-0 {
+    gap: 0;
 }
-.card1:hover {
-    transform: translateY(-10px);
+
+.bg-hihi {
+    background-color: #FB6358;
+}
+
+
+.w-75 {
+    width: 75%;
+}
+
+
+.border-hihi {
+    border: solid;
+    color: gray;
 }
