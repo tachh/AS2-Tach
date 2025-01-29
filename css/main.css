@@ -21,7 +21,6 @@
 
 
 
-
 .splide__arrow {
     background-color: #FB6358;
     color: #ffffff;
@@ -61,4 +60,11 @@
 .border-hihi {
     border: solid;
     color: gray;
+}
+
+
+.g-font {
+    font-family: "Dynalight", serif;
+    font-weight: 400;
+    font-style: normal;
 }
